@@ -1,0 +1,49 @@
+.register {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.phoneform {
+  height: 10em;
+  form {
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 20px;
+    width: 23vw;
+    .title {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    .container {
+      padding: 10px;
+      box-shadow: 5px 10px 10px rgba(73, 73, 73, 0.411);
+      margin: 10px 0;
+      input {
+        height: 30px;
+        width: 75%;
+      }
+    }
+    #term {
+      text-align: center;
+      color: grey;
+      margin: 15px 0;
+    }
+    button {
+      float: right;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .phoneform {
+    form {
+      width: 50vw;
+    }
+  }
+}
